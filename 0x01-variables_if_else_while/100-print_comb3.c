@@ -11,8 +11,8 @@ int two, digit, number;
 two = 0;
 while (two < 100)
 {
-digit = 2 % 10;
-number = 2 / 10;
+digit = two % 10;
+number = two / 10;
 if (number < digit)
 {
 putchar(number + '0');
